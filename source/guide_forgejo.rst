@@ -62,13 +62,13 @@ Check current version of Forgejo at releases_ page:
 .. code-block:: console
 
   [isabell@stardust ~]$ mkdir ~/forgejo
-  [isabell@stardust ~]$ wget -O ~/forgejo/forgejo-1.21.3-0 https://codeberg.org/forgejo/forgejo/releases/download/v1.21.3-0/forgejo-1.21.3-0-linux-amd64
+  [isabell@stardust ~]$ wget -O ~/forgejo/forgejo-7.0.0 https://codeberg.org/forgejo/forgejo/releases/download/v7.0.0/forgejo-7.0.0-linux-amd64
   [...]
-  Saving to: ‘/home/isabell/forgejo/forgejo-1.21.3-0’
+  Saving to: ‘/home/isabell/forgejo/forgejo-7.0.0’
 
-  100%[=======================================================>] 105,054,768 27.9MB/s   in 3.9s
+  100%[=======================================================>] 107,024,464 64.7MB/s   in 1.6s
 
-  2023-12-28 22:22:22 (26.0 MB/s) - ‘forgej0-1.21.3-0’ saved [105054768/105054768]
+  2024-04-24 20:24:42 (64.7 MB/s) - ‘/home/rdwz/forgejo/forgejo-7.0.0’ saved [107024464/107024464]
 
   [isabell@stardust ~]$
 
@@ -80,8 +80,8 @@ Make the downloaded binary executable:
 
 .. code-block:: console
 
-  [isabell@stardust ~]$ chmod u+x ~/forgejo/forgejo-1.21.3-0
-  [isabell@stardust ~]$ ln -fs ~/forgejo/forgejo-1.21.3-0 ~/forgejo/forgejo
+  [isabell@stardust ~]$ chmod u+x ~/forgejo/forgejo-7.0.0
+  [isabell@stardust ~]$ ln -fs ~/forgejo/forgejo-7.0.0 ~/forgejo/forgejo
   [isabell@stardust ~]$
 
 
